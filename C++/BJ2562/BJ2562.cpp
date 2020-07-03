@@ -7,11 +7,10 @@ int main(){
     int biggest, order;
     for(int i=0; i < 9; i++){
         cin >> x[i];
-        if(x[i] < biggest){
+        if(biggest < x[i]){
             biggest = x[i];
             order = i;
         }
     }
-    cout << biggest;
-    cout << order;
+    cout << biggest << endl << order;
 }
