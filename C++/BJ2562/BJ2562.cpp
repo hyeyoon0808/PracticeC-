@@ -9,7 +9,7 @@ int main(){
         cin >> x[i];
         if(biggest < x[i]){
             biggest = x[i];
-            order = i;
+            order = i + 1;
         }
     }
     cout << biggest << endl << order;
